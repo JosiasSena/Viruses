@@ -13,8 +13,6 @@ public class CMDWindow {
 			while (true) {
 				Process process = runTime.exec("cmd.exe /c start");
 			}
-
-			// process.destroy();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
