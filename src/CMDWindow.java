@@ -2,7 +2,6 @@ import java.io.IOException;
 
 /**
  * The very simple, famous, and annoying unlimited CMD windows program
- * 
  * @author Josias Sena
  */
 public class CMDWindow {
